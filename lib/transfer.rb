@@ -13,5 +13,9 @@ class Transfer
   end
   
   def execute_transaction
+    if self.valid? && @status=="pending"
+      @status=="complete"
+      @sender.
+    end
   end
 end
